@@ -1,0 +1,26 @@
+﻿  main.cpp
+C:\Users\Zsombi\source\repos\MyStl\MyStl\base.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Zsombi\source\repos\MyStl\MyStl\preprocessor.h(31,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Zsombi\source\repos\MyStl\MyStl\registers.h(56,14): warning C4102: 'base': unreferenced label
+C:\Users\Zsombi\source\repos\MyStl\MyStl\registers.h(62,1): warning C4102: 'base': unreferenced label
+C:\Users\Zsombi\source\repos\MyStl\MyStl\registers.h(92,1): warning C4102: 'base': unreferenced label
+C:\Users\Zsombi\source\repos\MyStl\MyStl\Instruction.h(89,1): warning C4102: 'base': unreferenced label
+C:\Users\Zsombi\source\repos\MyStl\MyStl\Inter_Container.h(14,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Zsombi\source\repos\MyStl\MyStl\Inter_Container.h(13): message : while compiling class template member function 'void Generic_Inter_Container<int,Int_Parser,Int_Register_Container>::_do(Line *,memoriatipus,status_word *)'
+          with
+          [
+              memoriatipus=Int_Register_Container
+          ]
+C:\Users\Zsombi\source\repos\MyStl\MyStl\Instruction.h(70): message : see reference to function template instantiation 'void Generic_Inter_Container<int,Int_Parser,Int_Register_Container>::_do(Line *,memoriatipus,status_word *)' being compiled
+          with
+          [
+              memoriatipus=Int_Register_Container
+          ]
+C:\Users\Zsombi\source\repos\MyStl\MyStl\Inter_Container.h(30): message : see reference to class template instantiation 'Generic_Inter_Container<int,Int_Parser,Int_Register_Container>' being compiled
+C:\Users\Zsombi\source\repos\MyStl\MyStl\misc.h(27): warning C4715: 'get_type': not all control paths return a value
+C:\Users\Zsombi\source\repos\MyStl\MyStl\misc.h(17): warning C4715: 'stob': not all control paths return a value
+C:\Users\Zsombi\source\repos\MyStl\MyStl\base.h(42): warning C4715: 'Generic_Container<bool>::get': not all control paths return a value
+C:\Users\Zsombi\source\repos\MyStl\MyStl\base.h(42): warning C4715: 'Generic_Container<int>::get': not all control paths return a value
+C:\Users\Zsombi\source\repos\MyStl\MyStl\preprocessor.h(38): warning C4715: 'Line::get_parameter': not all control paths return a value
+C:\Users\Zsombi\source\repos\MyStl\MyStl\registers.h(78): warning C4715: 'Int_Register_Container::get_by_name': not all control paths return a value
+  MyStl.vcxproj -> C:\Users\Zsombi\source\repos\MyStl\Debug\MyStl.exe

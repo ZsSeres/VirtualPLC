@@ -1,0 +1,4 @@
+SETUP TIMER name:timer1 interval:1000
+= timer1.input true
+FIN
+END_PROGRAM
